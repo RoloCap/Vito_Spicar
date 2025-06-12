@@ -1,0 +1,106 @@
+.flex{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    background-color: #361759;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 75px;
+    display: block;
+    
+}
+
+.footer{
+    background-image: url('Images/footer-01.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 466px;
+    position: fixed;
+}
+
+.font{
+    font-family: "Luckiest Guy";
+
+}
+.shadow{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.image-shadow{
+    box-shadow: 5px 5px 4px rgba(0, 0, 0,0.5);
+    transition: 0.15s;
+}
+
+.image-shadow:hover{
+    scale: 1.01;
+    opacity: 0.75;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+}
+
+.background{
+    position: relative;
+    width: 100%;
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.button{
+    color: white;
+    background: none;
+    font-size: 20px;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.15s;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+
+.button:hover{
+    opacity: 0.7;
+    scale:1.1;
+}
+.button:active{
+    opacity: 0.5;
+    scale: 0.95;
+}
+
+.pos-fixed{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: auto;
+    z-index: 1000;
+}
+
+.favicon{
+    transition: 0.15s;
+    cursor: pointer;
+}
+.favicon:hover{
+    opacity: 0.7;
+ 
+}
+.favicon:active{
+    opacity: 0.5;
+}
